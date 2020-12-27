@@ -1,1 +1,23 @@
 // Specific CSS for your home-page
+.banner {
+  display: flex;
+  background-image: asset-url('banner.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 384px 0;
+  max-width: 100%;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  text-align: center;
+  font-family: helvetica, arial, serif;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+
+
+
