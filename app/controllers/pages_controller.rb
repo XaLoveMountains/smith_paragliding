@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [ :home, :tandem, :training, :flightzone, :contact ]
+  skip_before_action :authenticate_user!, only: [ :home, :tandem, :instruction, :flightzone, :contact ]
 
   def home
   end
@@ -7,7 +7,7 @@ class PagesController < ApplicationController
   def tandem
   end
 
-  def training
+  def instruction
   end
 
   def flightzone
